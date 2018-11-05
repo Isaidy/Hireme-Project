@@ -1,0 +1,44 @@
+h1 {
+    text-align:center;
+    color:#e6edfb;
+    font-family: 'Gilda Display', serif;
+    text-decoration: underline;
+}
+
+body {
+    background:#abc0ec; 
+    border: solid 5px white; 
+}
+
+h1:hover, a:hover {
+    color:#5d78b2;
+}
+
+img {
+    width:300px;
+    border: solid 5px #5d78b2 ;
+    box-shadow:4px 2px  #CABEE7, 8px 0px purple, 12px 0px #95C4DB, 17px 0px #20759F;
+    transform: translateX(200px);
+     position:fixed;
+    left: 50%;
+}
+
+a {
+    font-family: 'Gaegu', cursive;
+    font-size: 30px;
+    color: #0A4766;
+    background: #D4DBEC;
+}
+
+p, ul {
+    font-weight: bold;
+}
+
+.b:hover {
+    background:black;
+}
+
+ul {
+    color: #234057;
+    font-family: 'Puritan', cursive;
+}
